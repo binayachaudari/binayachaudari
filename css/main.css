@@ -1723,6 +1723,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .header-logo {
         left: 30px;
     }
+
+    .header-logo a{
+      width: 80px;
+    }
+
     .header-menu-toggle {
         right: 25px;
     }
