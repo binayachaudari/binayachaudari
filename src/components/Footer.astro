@@ -1,0 +1,23 @@
+---
+import { TwitterIcon } from "./SocialIcons";
+const year = new Date().getFullYear()
+---
+
+<footer class="border-t w-full border-zinc-100 py-10 dark:border-zinc-700/40">
+  <div
+    class="mx-auto max-w-[800px] flex-col gap-6 sm:flex-row flex justify-between items-center"
+  >
+    <div class="displ flex gap-4 items-center">
+      <a
+        href="https://twitter.com/__Binaya__"
+        aria-label="Follow on Twitter"
+        class="group -m-1 p-1"
+      >
+      <TwitterIcon />
+      </a>
+    </div>
+    <div class="text-sm text-zinc-400 dark:text-zinc-500">
+      &copy; {year} Binaya Kumar Chaudhary. All rights reserved.
+    </div>
+  </div>
+</footer>
